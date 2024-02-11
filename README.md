@@ -1,6 +1,8 @@
 Problem: 
 The goal of this test assignment is to design a data processing pipeline taking input in CSV format from a partner and producing output in JSON format for internal processing.
 
+![Screenshot 2024-02-11 191205](https://github.com/Barikah-Shafqat/CustomerOrderProcessingApp/assets/150073570/9c7b90e2-396f-418f-ba0a-1e88eb4ddcd3)
+
 Solution:
 The following project can be achieved by using AWS Serverless setup such as AWS Lambda, Amazon S3 for uploading the csv files and Amazon SQS for forwarding the output messages.
 The AWS Services can be setup in the following order:
